@@ -11,13 +11,13 @@ public class AttackBehaviour : StateMachineBehaviour
 
         animator.SetFloat("speed", 0);
 
-        /*if (animator.tag == "Player")
+        if (animator.tag == "Player")
         {
             if (Player.Instance.OnGround)
             {
                 Player.Instance.Rb.velocity = Vector2.zero;
             }
-        }*/
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
