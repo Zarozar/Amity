@@ -78,6 +78,7 @@ public class AttackState : IEnemyState
         if (attackTimer >= attackDuration)
         {
             isAttacking = false;
+            //enemy.animator.GetComponent<Character>().MeleeAttack();
             enemy.animator.SetTrigger("finish_attack");
             attackTimer = 0;
         }
