@@ -65,9 +65,11 @@ public class Player : Character
 
         OnGround = IsGrounded();
 
-        HandleMovement(horizontal);
-
-        Flip(horizontal);
+        if (!IsDead)
+        {
+            HandleMovement(horizontal);
+            Flip(horizontal);
+        }
 
         HandleLayers();
     }
@@ -82,10 +84,6 @@ public class Player : Character
         {
             Rb.velocity = new Vector2(horizontal * speed, Rb.velocity.y);
         }
-        if (Jump && Rb.velocity.y == 0)
-        {
-            Rb.AddForce(new Vector2(0, jumpForce));
-        }
 
         animator.SetFloat("speed", Mathf.Abs(horizontal));
     }
@@ -94,12 +92,13 @@ public class Player : Character
 
     private void HandleInput()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && (!IsDead) && OnGround)
         {
             animator.SetTrigger("jump");
+            Rb.AddForce(new Vector2(0, jumpForce));
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && (!IsDead))
         {
             animator.SetTrigger("attack");
         }
@@ -155,7 +154,6 @@ public class Player : Character
         if (!IsDead)
         {
             animator.SetTrigger("damaged");
-            Debug.Log("take damage");
         }
         else
         {

@@ -118,11 +118,20 @@ public class Enemy : Character
         if (!IsDead)
         {
             animator.SetTrigger("damaged");
-            Debug.Log("take damage");
+            CloseAttackCollider();
+            StartCoroutine(ReturnToIdle());
         }
         else
         {
             animator.SetTrigger("die");
+            this.gameObject.GetComponent<PolygonCollider2D>().enabled = false;
+            this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
         }
+    }
+    
+    IEnumerator ReturnToIdle()
+    {
+        yield return new WaitForSeconds(3.0f);
+        ChangeState(new IdleState());
     }
 }

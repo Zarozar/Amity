@@ -49,9 +49,13 @@ public abstract class Character : MonoBehaviour
 
     public void MeleeAttack()
     {
-        MeleeCollider.enabled = !MeleeCollider.enabled;
-        Debug.Log("Melee attack");
+        MeleeCollider.enabled = true;
+        Debug.Log("enable attack collision");
     }
 
-    
+    public void CloseAttackCollider()
+    {
+        MeleeCollider.enabled = false;
+        Debug.Log("disable attack collision");
+    }
 }

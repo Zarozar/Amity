@@ -20,7 +20,7 @@ public class AttackState : IEnemyState
 
     public void Execute()
     {
-        Debug.Log("attacking");
+        
         if (isAttacking == false)
         {
             CastFire();
@@ -79,6 +79,7 @@ public class AttackState : IEnemyState
         {
             isAttacking = false;
             enemy.animator.SetTrigger("finish_attack");
+            enemy.animator.SetTrigger("attack");
             attackTimer = 0;
         }
     }
