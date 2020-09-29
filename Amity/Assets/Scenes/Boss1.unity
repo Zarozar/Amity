@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -392, y: 252}
+  m_AnchoredPosition: {x: -377, y: 284}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4797668
@@ -18209,10 +18209,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad22389d91838fb4cad544cd534fec50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 8.3
-  yMax: -0.68
-  xMin: -41.86
-  yMin: -0.68
+  xMax: 7
+  yMax: 16
+  xMin: -40.8
+  yMin: 0
   playerSamurai: {fileID: 649221586}
 --- !u!20 &519420031
 Camera:
@@ -18265,7 +18265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.72, y: -0.68, z: -10}
+  m_LocalPosition: {x: -40.8, y: 0, z: -10}
   m_LocalScale: {x: 1.7235, y: 1.7235, z: 1.7235}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18418,7 +18418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -394.00003, y: 204}
+  m_AnchoredPosition: {x: -375, y: 236}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635348094
