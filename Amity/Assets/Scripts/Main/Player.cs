@@ -54,7 +54,7 @@ public class Player : Character
     {
         base.Start();
         Rb = GetComponent<Rigidbody2D>();
-        damage = 10;
+        damage = 20;
         sliderHp.maxValue = health;
         sliderHp.value = health;
     }
@@ -154,7 +154,14 @@ public class Player : Character
         }
     }
 
-
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "healthpot" && health <= 75)
+        {
+            health += 25;
+            Destroy(other.gameObject);
+        }
+    }
 
     public override void TakeDamage(int damage)
     {

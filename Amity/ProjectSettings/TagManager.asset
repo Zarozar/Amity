@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Edge
   - Sword
+  - healthpot
   layers:
   - Default
   - TransparentFX
