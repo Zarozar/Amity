@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public abstract class Character : MonoBehaviour
 {
     [SerializeField]
@@ -50,12 +51,10 @@ public abstract class Character : MonoBehaviour
     public void MeleeAttack()
     {
         MeleeCollider.enabled = true;
-        Debug.Log("enable attack collision");
     }
 
     public void CloseAttackCollider()
     {
         MeleeCollider.enabled = false;
-        Debug.Log("disable attack collision");
     }
 }

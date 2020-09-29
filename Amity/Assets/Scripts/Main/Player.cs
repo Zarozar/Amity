@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : Character
 {
@@ -33,6 +34,8 @@ public class Player : Character
     [SerializeField]
     private float jumpForce;
 
+    public Text healthText;
+    public Slider sliderHp;
 
     public Rigidbody2D Rb { get; set; }
 
@@ -52,11 +55,17 @@ public class Player : Character
         base.Start();
         Rb = GetComponent<Rigidbody2D>();
         damage = 10;
+        sliderHp.maxValue = health;
+        sliderHp.value = health;
     }
 
     void Update()
     {
         HandleInput();
+
+        healthText.text = "Health: " + health;
+
+        sliderHp.value = health;
     }
 
     void FixedUpdate()

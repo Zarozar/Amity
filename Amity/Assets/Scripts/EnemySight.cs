@@ -19,7 +19,7 @@ public class EnemySight : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            //enemy.Target = null;
+            enemy.Target = null;
         }
     }
 }

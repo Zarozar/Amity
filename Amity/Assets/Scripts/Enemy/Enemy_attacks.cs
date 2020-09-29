@@ -13,7 +13,6 @@ public class Enemy_attacks : MonoBehaviour
     void Start()
     {
         EnemyScript = Enemy.GetComponent<Enemy>();
-        Debug.Log(EnemyScript.damage);
     }
 
     // Update is called once per frame
@@ -34,7 +33,6 @@ public class Enemy_attacks : MonoBehaviour
     {
         if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
         {
-            Debug.Log("Stay");
             counter++;
             if (counter % 20 == 0)
             {
