@@ -74,7 +74,7 @@ public class Player : Character
 
         OnGround = IsGrounded();
 
-        if (!IsDead)
+        if (!IsDead && !PausedMenu.isGamePaused)
         {
             HandleMovement(horizontal);
             Flip(horizontal);
