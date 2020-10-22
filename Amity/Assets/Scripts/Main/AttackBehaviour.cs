@@ -8,7 +8,6 @@ public class AttackBehaviour : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.GetComponent<Character>().Attack = true;
-
         animator.SetFloat("speed", 0);
 
         if (animator.tag == "Player")

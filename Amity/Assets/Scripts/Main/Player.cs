@@ -110,6 +110,8 @@ public class Player : Character
         if (Input.GetKeyDown(KeyCode.Mouse0) && (!IsDead))
         {
             animator.SetTrigger("attack");
+
+            FindObjectOfType<AudioManager>().Play("slice");
         }
     }
 
@@ -170,6 +172,7 @@ public class Player : Character
         if (!IsDead)
         {
             animator.SetTrigger("damaged");
+            FindObjectOfType<AudioManager>().Play("take_damage");
         }
         else
         {

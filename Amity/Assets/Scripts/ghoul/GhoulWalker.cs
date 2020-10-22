@@ -29,7 +29,7 @@ public class GhoulWalker : MonoBehaviour
 
     public void Start()
     {
-        damage = 10;
+        //damage = 10;
     }
 
     private void Update()
@@ -50,7 +50,7 @@ public class GhoulWalker : MonoBehaviour
         if(other.gameObject.tag == "Sword")
         {
             Destroy(other.gameObject);
-            StartCoroutine(SecondDeath(0.2f));
+            StartCoroutine(SecondDeath(0.5f));
         }
     }
 
