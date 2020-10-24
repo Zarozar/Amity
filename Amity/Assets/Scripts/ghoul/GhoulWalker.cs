@@ -6,17 +6,21 @@ public class GhoulWalker : MonoBehaviour
 {
     public GameObject Target { get; set; }
 
-    public int damage;
+    [SerializeField]
+    private float chargeRange;
 
-    [SerializeField]
-    private float speed;
-    
-    private bool facingRight;
-    
-    [SerializeField]
-    private int health;
-    
-    private Animator animator;
+    public bool InChargeRange
+    {
+        get
+        {
+            if (Target != null)
+            {
+                return Vector2.Distance(transform.position, Target.transform.position) <= chargeRange;
+            }
+
+            return false;
+        }
+    }
     public bool IsDead
     {
         get
@@ -25,33 +29,42 @@ public class GhoulWalker : MonoBehaviour
         }
     }
 
+    private bool facingRight = false;
+
+    [SerializeField]
+    private float speed;
+
+    [SerializeField]
+    public int damage { get; set; }
+
+    [SerializeField]
+    protected int health;
+
     public GameObject Explode;
 
-    public void Start()
+    private void Start()
     {
-        //damage = 10;
+        damage = 10;
     }
 
     private void Update()
     {
-
         if (!IsDead)
         {
-            LookAtTarget();
             Move();
-            transform.Translate(Vector2.left * speed * Time.deltaTime);
         }
-
-    
+        LookAtTarget();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Sword")
-        {
-            Destroy(other.gameObject);
-            StartCoroutine(SecondDeath(0.5f));
-        }
+        
+    }
+
+    public void GhoulDeath(float sec)
+    {
+        StartCoroutine(SecondDeath(sec));
+        speed = 0;
     }
 
     IEnumerator SecondDeath(float sec)    
@@ -76,23 +89,22 @@ public class GhoulWalker : MonoBehaviour
     {
         return facingRight ? Vector2.right : Vector2.left;
     }
-    public void ChangeDirection()
+    private void ChangeDirection()
     {
         facingRight = !facingRight;
         transform.localScale = new Vector3(transform.localScale.x * -1f, transform.localScale.y, transform.localScale.z);
     }
 
-    public void Move()
+    private void Move()
     {
         if (Target != null)
         {
-            animator.SetFloat("speed", 1);
-
-            transform.Translate(GetDirection() * (speed * Time.deltaTime));
+            if (InChargeRange == true)
+            {
+                transform.Translate(GetDirection() * (speed * Time.deltaTime));
+            }
         }
     }
-         
 
 
-    
 }

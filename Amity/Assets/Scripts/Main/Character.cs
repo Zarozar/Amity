@@ -17,7 +17,7 @@ public abstract class Character : MonoBehaviour
     public int damage { get; set; }
 
     [SerializeField]
-    private EdgeCollider2D MeleeCollider;
+    private BoxCollider2D MeleeCollider;
 
     public abstract bool IsDead { get; }
 

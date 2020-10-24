@@ -24,8 +24,13 @@ public class GhoulDamaged : MonoBehaviour
     {
         if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
         {
-            other.GetComponent<Character>().TakeDamage(GhoulScript.damage);
+            other.GetComponent<Character>().TakeDamage(50);
+            GhoulScript.GhoulDeath(0.5f);
+        }
+        if (other.gameObject.tag == "Sword")
+        {
+            Debug.Log("Hit");
+            GhoulScript.GhoulDeath(0.5f);
         }
     }
-
 }

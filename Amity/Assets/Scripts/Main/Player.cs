@@ -110,7 +110,7 @@ public class Player : Character
         if (Input.GetKeyDown(KeyCode.Mouse0) && (!IsDead))
         {
             animator.SetTrigger("attack");
-
+            MeleeAttack();
             FindObjectOfType<AudioManager>().Play("slice");
         }
     }
