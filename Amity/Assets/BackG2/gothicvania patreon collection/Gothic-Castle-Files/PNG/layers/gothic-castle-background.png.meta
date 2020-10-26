@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: d62d919af1ca909489367f1636024b47
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8600345912684370661
+    second: gothic-castle-background_0
+  - first:
+      213: -2266420395115137891
+    second: gothic-castle-background_0
+  - first:
+      213: -7273952359060650625
+    second: gothic-castle-background_1
+  - first:
+      213: 7019058933021148280
+    second: gothic-castle-background_2
+  - first:
+      213: -5897434029431549965
+    second: gothic-castle-background_3
+  - first:
+      213: 8204354588960487513
+    second: gothic-castle-background_4
+  - first:
+      213: 7914286717411930062
+    second: gothic-castle-background_5
+  - first:
+      213: -5843896557076044331
+    second: gothic-castle-background_6
+  - first:
+      213: 6944309416433229023
+    second: gothic-castle-background_7
+  - first:
+      213: -5807624437332303003
+    second: gothic-castle-background_8
+  - first:
+      213: 2022451395964313776
+    second: gothic-castle-background_9
+  - first:
+      213: 2393334461806060828
+    second: gothic-castle-background_1
+  - first:
+      213: 2233059262489377471
+    second: gothic-castle-background_2
+  - first:
+      213: 1589061350378779548
+    second: gothic-castle-background_3
+  - first:
+      213: -2288160593456326463
+    second: gothic-castle-background_4
+  - first:
+      213: -7966029350781243382
+    second: gothic-castle-background_5
+  - first:
+      213: -6620982574131485474
+    second: gothic-castle-background_6
+  - first:
+      213: 9104316883935984159
+    second: gothic-castle-background_7
+  - first:
+      213: 636678340310820820
+    second: gothic-castle-background_8
+  - first:
+      213: 3406481465027307469
+    second: gothic-castle-background_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +100,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +131,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gothic-castle-background_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94367d98ae0c80e0800000000000000
+      internalID: -2266420395115137891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 80
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15a6a83305d63120800000000000000
+      internalID: 2393334461806060828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 80
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba3317619b6dfe10800000000000000
+      internalID: 2233059262489377471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 80
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9331a301ea7d0610800000000000000
+      internalID: 1589061350378779548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81dfd3012de30e0800000000000000
+      internalID: -2288160593456326463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003954e28af27190800000000000000
+      internalID: -7966029350781243382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed467d4ad6b8d14a0800000000000000
+      internalID: -6620982574131485474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 70
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a789d18f7095e70800000000000000
+      internalID: 9104316883935984159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d76966c39fe5d800800000000000000
+      internalID: 636678340310820820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gothic-castle-background_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 66
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7a7e818d0464f20800000000000000
+      internalID: 3406481465027307469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
