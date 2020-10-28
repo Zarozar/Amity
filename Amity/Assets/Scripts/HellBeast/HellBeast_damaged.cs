@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HellBeast_damaged : MonoBehaviour
+public class HellBeast_Damaged : MonoBehaviour
 {
     public GameObject Enemy;
 
-    private HellBeast HellBeastScript;
+    private HellBeast HellBeast_Script;
 
     // Start is called before the first frame update
     void Start()
     {
-        HellBeastScript = Enemy.GetComponent<HellBeast>();
+        HellBeast_Script = Enemy.GetComponent<HellBeast>();
     }
 
     // Update is called once per frame
@@ -22,9 +22,14 @@ public class HellBeast_damaged : MonoBehaviour
 
     public virtual void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
+        {
+            HellBeast_Script.HellBeastDeath(1.5f);
+            other.GetComponent<Character>().TakeDamage(50);
+        }
         if (other.gameObject.tag == "Sword")
         {
-            HellBeastScript.HellBeastDeath(0.12f);
+            HellBeast_Script.HellBeastDeath(1.5f);
         }
     }
 }

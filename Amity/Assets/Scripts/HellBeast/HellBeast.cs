@@ -39,25 +39,31 @@ public class HellBeast : MonoBehaviour
     [SerializeField]
     protected int health;
 
+    private float timeBtwShots;
+    public float startTimeBtwShots;
+
+    public GameObject projectile;
 
     private void Start()
     {
         damage = 10;
         animator = GetComponent<Animator>();
+        timeBtwShots = startTimeBtwShots;
     }
 
     private void Update()
     {
         if (!IsDead)
         {
-            if (InShotRange)
+            if (InShotRange && timeBtwShots <= 0)
             {
                 animator.SetTrigger("attack");
+                timeBtwShots = startTimeBtwShots;
             }
-        }
-        else
-        {
-            animator.SetTrigger("death");
+            else 
+            {
+                timeBtwShots -= Time.deltaTime;
+            }
         }
         LookAtTarget();
         
@@ -87,6 +93,7 @@ public class HellBeast : MonoBehaviour
     }
     public void HellBeastDeath(float sec)
     {
+        animator.SetTrigger("death");
         StartCoroutine(H_SecondDeath(sec));
     }
 
@@ -94,5 +101,10 @@ public class HellBeast : MonoBehaviour
     {
         yield return new WaitForSeconds(sec);
         Destroy(this.gameObject);
+    }
+
+    private void spawnBalls()
+    {
+        Instantiate(projectile, transform.position, Quaternion.identity);
     }
 }

@@ -19065,31 +19065,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3015800272339140581, guid: 772e29a217c5e414db6d58a094e48929,
-        type: 3}
-      propertyPath: sounds.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015800272339140581, guid: 772e29a217c5e414db6d58a094e48929,
-        type: 3}
-      propertyPath: sounds.Array.data[1].name
-      value: take_damage
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015800272339140581, guid: 772e29a217c5e414db6d58a094e48929,
-        type: 3}
-      propertyPath: sounds.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 0da9c6cb7eeb74c40b084412c00c8ea9, type: 3}
-    - target: {fileID: 3015800272339140581, guid: 772e29a217c5e414db6d58a094e48929,
-        type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015800272339140581, guid: 772e29a217c5e414db6d58a094e48929,
-        type: 3}
-      propertyPath: sounds.Array.data[1].pitch
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 772e29a217c5e414db6d58a094e48929, type: 3}
 --- !u!1001 &4059815086049769624

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HellBeast_Attack
+  m_Name: fireBall
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,22 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -8473535881398634344, guid: b02d07ae31c151b47be75474184be855,
+      value: {fileID: -5009484654584983362, guid: 8e80a7ca8d3f6fd41b0cd699cecae6e8,
         type: 3}
-    - time: 0.033333335
-      value: {fileID: 3700778223479553246, guid: b02d07ae31c151b47be75474184be855,
+    - time: 0.083333336
+      value: {fileID: -9042202173726975865, guid: 8e80a7ca8d3f6fd41b0cd699cecae6e8,
         type: 3}
-    - time: 0.06666667
-      value: {fileID: -728343487374458041, guid: b02d07ae31c151b47be75474184be855,
-        type: 3}
-    - time: 0.1
-      value: {fileID: 1487279022005020668, guid: b02d07ae31c151b47be75474184be855,
+    - time: 0.16666667
+      value: {fileID: -2865694067802389947, guid: 8e80a7ca8d3f6fd41b0cd699cecae6e8,
         type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,21 +47,20 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -8473535881398634344, guid: b02d07ae31c151b47be75474184be855, type: 3}
-    - {fileID: 3700778223479553246, guid: b02d07ae31c151b47be75474184be855, type: 3}
-    - {fileID: -728343487374458041, guid: b02d07ae31c151b47be75474184be855, type: 3}
-    - {fileID: 1487279022005020668, guid: b02d07ae31c151b47be75474184be855, type: 3}
+    - {fileID: -5009484654584983362, guid: 8e80a7ca8d3f6fd41b0cd699cecae6e8, type: 3}
+    - {fileID: -9042202173726975865, guid: 8e80a7ca8d3f6fd41b0cd699cecae6e8, type: 3}
+    - {fileID: -2865694067802389947, guid: 8e80a7ca8d3f6fd41b0cd699cecae6e8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.11666667
+    m_StopTime: 0.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -78,11 +74,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.1
-    functionName: spawnBalls
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
