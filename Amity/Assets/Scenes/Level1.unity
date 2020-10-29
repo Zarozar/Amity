@@ -2214,10 +2214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad22389d91838fb4cad544cd534fec50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 191
-  yMax: 21
-  xMin: -12
-  yMin: 0
+  xMax: 847.6
+  yMax: 345.1
+  xMin: 645.5449
+  yMin: 325.9605
   playerSamurai: {fileID: 649221586}
 --- !u!20 &519420031
 Camera:
@@ -2270,7 +2270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 645.5449, y: 325.96054, z: -10}
+  m_LocalPosition: {x: 650.3, y: 327.8, z: -10}
   m_LocalScale: {x: 1.7235, y: 1.7235, z: 1.7235}
   m_Children: []
   m_Father: {fileID: 0}
