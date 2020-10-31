@@ -22,7 +22,7 @@ public class edgeDetector : MonoBehaviour
 
     public virtual void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
+        if (other.gameObject.tag == "Player")
         {
             other.GetComponent<Character>().TakeDamage(50);
         }
