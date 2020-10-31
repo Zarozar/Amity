@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GhoulWalker : MonoBehaviour
+public class Frog : MonoBehaviour
 {
     public GameObject Target { get; set; }
 
@@ -60,17 +60,16 @@ public class GhoulWalker : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+
     }
 
-    public void GhoulDeath(float sec)
+    public void FrogDeath(float sec)
     {
         StartCoroutine(SecondDeath(sec));
-        animator.SetTrigger("death");
         speed = 0;
     }
 
-    IEnumerator SecondDeath(float sec)    
+    IEnumerator SecondDeath(float sec)
     {
         yield return new WaitForSeconds(sec);
         Destroy(this.gameObject);
@@ -96,6 +95,7 @@ public class GhoulWalker : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(transform.localScale.x * -1f, transform.localScale.y, transform.localScale.z);
     }
+
     private void Move()
     {
         if (Target != null)
