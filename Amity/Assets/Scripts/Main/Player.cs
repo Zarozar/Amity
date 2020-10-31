@@ -95,6 +95,7 @@ public class Player : Character
         }
 
         animator.SetFloat("speed", Mathf.Abs(horizontal));
+        Debug.Log(Rb.velocity.y);
     }
 
 
