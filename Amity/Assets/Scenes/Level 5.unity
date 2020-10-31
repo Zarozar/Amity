@@ -156,7 +156,7 @@ MonoBehaviour:
   yMax: 6.08
   xMin: -33.26
   yMin: -8.67
-  playerSamurai: {fileID: 0}
+  playerSamurai: {fileID: 1772726914}
 --- !u!81 &53381119
 AudioListener:
   m_ObjectHideFlags: 0
@@ -591,6 +591,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b8d2a4553ba9b046883a494f9530823, type: 3}
+--- !u!4 &1772726914 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
+    type: 3}
+  m_PrefabInstance: {fileID: 1772726913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1821082931
 PrefabInstance:
   m_ObjectHideFlags: 0
