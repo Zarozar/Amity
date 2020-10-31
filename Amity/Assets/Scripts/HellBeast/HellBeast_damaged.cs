@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HellBeast_Damaged : MonoBehaviour
+public class HellBeast_damaged : MonoBehaviour
 {
     public GameObject Enemy;
 
@@ -17,7 +17,7 @@ public class HellBeast_Damaged : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public virtual void OnTriggerEnter2D(Collider2D other)
@@ -32,4 +32,6 @@ public class HellBeast_Damaged : MonoBehaviour
             HellBeast_Script.HellBeastDeath(1.5f);
         }
     }
+
+ 
 }
