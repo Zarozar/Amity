@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HellBeast_Damaged : MonoBehaviour
+public class HellBeast_damaged : MonoBehaviour
 {
     public GameObject Enemy;
 

@@ -1090,8 +1090,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558724369}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73, y: 26, z: 43.8}
-  m_LocalScale: {x: 2.0721023, y: 2.0721023, z: 2.0721023}
+  m_LocalPosition: {x: 96.495, y: 78.035, z: 16.809}
+  m_LocalScale: {x: 1.4747566, y: 1.4747566, z: 1.4747566}
   m_Children:
   - {fileID: 1666272872}
   - {fileID: 2108118258}
@@ -1597,10 +1597,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad22389d91838fb4cad544cd534fec50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 12.88
-  yMax: 50.8
-  xMin: 37.46
-  yMin: 41.09
+  xMax: 160.6
+  yMax: 93.1
+  xMin: 75.9
+  yMin: 91.3
   playerSamurai: {fileID: 1666272872}
 --- !u!81 &807123946
 AudioListener:
@@ -1661,7 +1661,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807123944}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 170.4, y: 50.8, z: -10}
+  m_LocalPosition: {x: 75.9, y: 93.1, z: -10}
   m_LocalScale: {x: 1.7235, y: 1.7235, z: 1.7235}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2268,7 +2268,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -414, y: 312}
+  m_AnchoredPosition: {x: -712, y: 137}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1580578141
@@ -2439,10 +2439,20 @@ PrefabInstance:
       propertyPath: sliderHp
       value: 
       objectReference: {fileID: 1670330874}
+    - target: {fileID: 5546353380297504387, guid: 1b8d2a4553ba9b046883a494f9530823,
+        type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5546353380297504387, guid: 1b8d2a4553ba9b046883a494f9530823,
+        type: 3}
+      propertyPath: jumpForce
+      value: 650
+      objectReference: {fileID: 0}
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.606625
+      value: -22.7
       objectReference: {fileID: 0}
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
@@ -3901,8 +3911,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2108539258}
-  - component: {fileID: 2108539259}
   - component: {fileID: 2108539260}
+  - component: {fileID: 2108539259}
   m_Layer: 0
   m_Name: HellBeast_Damaged
   m_TagString: Untagged
