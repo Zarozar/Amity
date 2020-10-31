@@ -17,7 +17,7 @@ public class HellBeast_damaged : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public virtual void OnTriggerEnter2D(Collider2D other)
@@ -32,4 +32,6 @@ public class HellBeast_damaged : MonoBehaviour
             HellBeast_Script.HellBeastDeath(1.5f);
         }
     }
+
+ 
 }
