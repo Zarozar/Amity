@@ -2042,10 +2042,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad22389d91838fb4cad544cd534fec50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xMax: 847.6
-  yMax: 345.1
-  xMin: 645.5449
-  yMin: 325.9605
+  xMax: 841
+  yMax: 340.7
+  xMin: 652.9
+  yMin: 329.9
   playerSamurai: {fileID: 649221586}
 --- !u!20 &519420031
 Camera:
@@ -2074,7 +2074,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2098,7 +2098,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 650.3, y: 327.8, z: -10}
+  m_LocalPosition: {x: 653.2, y: 330.4, z: -10}
   m_LocalScale: {x: 1.7235, y: 1.7235, z: 1.7235}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18915,12 +18915,12 @@ PrefabInstance:
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 681.5
+      value: 638.01
       objectReference: {fileID: 0}
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 323.7
+      value: 323.39
       objectReference: {fileID: 0}
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
