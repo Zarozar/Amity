@@ -667,7 +667,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.39, y: 0.49}
+    oldSize: {x: 0.33, y: 0.45}
     newSize: {x: 0.33, y: 0.45}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2172,8 +2172,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180063530}
-  - component: {fileID: 180063532}
   - component: {fileID: 180063531}
+  - component: {fileID: 180063532}
   m_Layer: 0
   m_Name: Frog_damaged
   m_TagString: Untagged
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 180063529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfeba4d0863599d4dbfed66046e008aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ee7af33ed3c0074989d95cb0af54b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 1460040019}
@@ -11380,7 +11380,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1405499214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4622ac6c8b0c2df4ea785cccacc329cf, type: 3}
+  m_Script: {fileID: 11500000, guid: e93c1b1192024a3499cae3a468cbf9b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1460040026}
@@ -11752,7 +11752,7 @@ GameObject:
   - component: {fileID: 1460040024}
   - component: {fileID: 1460040026}
   m_Layer: 0
-  m_Name: frog
+  m_Name: Frog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11912,10 +11912,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460040019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b14735c6a67483349bb592cb4863113f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ff3d1db7e2cbce4a8cbe5bd6b14725e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chargeRange: 15
+  chargeRange: 12
   speed: 10
   health: 10
 --- !u!1 &1503083336
