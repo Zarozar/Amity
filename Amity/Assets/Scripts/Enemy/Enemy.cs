@@ -35,7 +35,7 @@ public class Enemy : Character
     {
         base.Start();
         ChangeState(new IdleState());
-        damage = 5;
+        damage = 10;
     }
 
 

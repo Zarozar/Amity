@@ -29,7 +29,7 @@ public class GhoulDamaged : MonoBehaviour
         }
         if (other.gameObject.tag == "Sword")
         {
-            GhoulScript.GhoulDeath(0.5f);
+            GhoulScript.GhoulDeath(0.2f);
         }
     }
 }

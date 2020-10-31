@@ -29,6 +29,8 @@ public class GhoulWalker : MonoBehaviour
         }
     }
 
+    public Animator animator { get; private set; }
+
     private bool facingRight = false;
 
     [SerializeField]
@@ -40,11 +42,11 @@ public class GhoulWalker : MonoBehaviour
     [SerializeField]
     protected int health;
 
-    public GameObject Explode;
 
     private void Start()
     {
         damage = 10;
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -64,13 +66,13 @@ public class GhoulWalker : MonoBehaviour
     public void GhoulDeath(float sec)
     {
         StartCoroutine(SecondDeath(sec));
+        animator.SetTrigger("death");
         speed = 0;
     }
 
     IEnumerator SecondDeath(float sec)    
     {
         yield return new WaitForSeconds(sec);
-        Instantiate(Explode, transform.position, transform.rotation);
         Destroy(this.gameObject);
     }
     private void LookAtTarget()
