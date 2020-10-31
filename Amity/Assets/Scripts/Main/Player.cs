@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Player : Character
 {
+    private bool attacking = false;
+
     private static Player instance;
 
     public static Player Instance
@@ -36,6 +38,9 @@ public class Player : Character
 
     public Text healthText;
     public Slider sliderHp;
+
+    private float attackCd = 0.5f;
+    private float attackTimer = 0;
 
     public Rigidbody2D Rb { get; set; }
 
@@ -81,6 +86,18 @@ public class Player : Character
         }
 
         HandleLayers();
+
+        if (attacking)
+        {
+            if (attackTimer > 0)
+            {
+                attackTimer -= Time.deltaTime;
+            }
+            else
+            {
+                attacking = false;
+            }
+        }
     }
 
     private void HandleMovement(float horizontal)
@@ -107,10 +124,12 @@ public class Player : Character
             Rb.AddForce(new Vector2(0, jumpForce));
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0) && (!IsDead))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && (!IsDead) && !attacking)
         {
             animator.SetTrigger("attack");
             FindObjectOfType<AudioManager>().Play("slice");
+            attacking = true;
+            attackTimer = attackCd;
         }
     }
 
