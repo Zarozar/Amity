@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GhoulWalker : MonoBehaviour
+public class Thing : MonoBehaviour
 {
     public GameObject Target { get; set; }
 
@@ -53,24 +53,23 @@ public class GhoulWalker : MonoBehaviour
     {
         if (!IsDead)
         {
-            Move();
+            transform.Translate(GetDirection() * (speed * Time.deltaTime));
         }
         LookAtTarget();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+
     }
 
-    public void GhoulDeath(float sec)
+    public void ThingDeath(float sec)
     {
         StartCoroutine(SecondDeath(sec));
-        animator.SetTrigger("death");
         speed = 0;
     }
 
-    IEnumerator SecondDeath(float sec)    
+    IEnumerator SecondDeath(float sec)
     {
         yield return new WaitForSeconds(sec);
         Destroy(this.gameObject);
@@ -91,21 +90,12 @@ public class GhoulWalker : MonoBehaviour
     {
         return facingRight ? Vector2.right : Vector2.left;
     }
-    private void ChangeDirection()
+    public void ChangeDirection()
     {
         facingRight = !facingRight;
         transform.localScale = new Vector3(transform.localScale.x * -1f, transform.localScale.y, transform.localScale.z);
     }
-    private void Move()
-    {
-        if (Target != null)
-        {
-            if (InChargeRange == true)
-            {
-                transform.Translate(GetDirection() * (speed * Time.deltaTime));
-                animator.SetFloat("speed", 8f);
-            }
-        }
-    }
+
+  
 
 }
