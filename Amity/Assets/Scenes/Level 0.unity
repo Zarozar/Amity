@@ -3642,7 +3642,7 @@ GameObject:
   - component: {fileID: 395858207}
   - component: {fileID: 395858208}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: audio ting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11170,11 +11170,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015800272339140581, guid: 772e29a217c5e414db6d58a094e48929,
-        type: 3}
-      propertyPath: sounds.Array.data[2].volume
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 772e29a217c5e414db6d58a094e48929, type: 3}
