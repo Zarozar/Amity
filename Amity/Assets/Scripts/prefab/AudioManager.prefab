@@ -54,3 +54,8 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: Level_0
+    clip: {fileID: 8300000, guid: 800cb7076b46fb147982691d7d27bd54, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
