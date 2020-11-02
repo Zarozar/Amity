@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lizard_damaged : MonoBehaviour
+public class L_Enemy_attacks : MonoBehaviour
 {
     public GameObject Enemy;
 
@@ -17,14 +17,15 @@ public class Lizard_damaged : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public virtual void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Sword")
+        if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
         {
-            LizardScript.TakeDamage(other.GetComponent<Player>().damage);
+            other.GetComponent<Character>().TakeDamage(LizardScript.damage);
         }
     }
+
 }

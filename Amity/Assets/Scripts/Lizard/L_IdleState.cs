@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdleState : IEnemyState
+public class L_IdleState : IEnemyState
 {
     private Enemy enemy;
 
     private float idleTimer;
 
-    private float idleDuration = 10f;
+    private float idleDuration = 2f;
 
     public void Enter(Enemy enemy)
     {
@@ -21,7 +21,7 @@ public class IdleState : IEnemyState
 
         if (enemy.Target != null)
         {
-            enemy.ChangeState(new PatrolState());
+            enemy.ChangeState(new L_PatrolState());
         }
     }
 
@@ -43,7 +43,7 @@ public class IdleState : IEnemyState
 
         if (idleTimer >= idleDuration)
         {
-            enemy.ChangeState(new PatrolState());
+            enemy.ChangeState(new L_PatrolState());
         }
     }
 }

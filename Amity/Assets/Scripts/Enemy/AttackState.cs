@@ -11,7 +11,7 @@ public class AttackState : IEnemyState
     private bool canCast = true;
     private float attackTimer = 0;
     private float attackDuration = 2;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
 
     public void Enter(Enemy enemy)
     {
@@ -47,12 +47,12 @@ public class AttackState : IEnemyState
         
     }
 
-    public void OnTriggerEnter(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         
     }
 
-    private void CastFire()
+    public virtual void CastFire()
     {
         castTimer += Time.deltaTime;
 

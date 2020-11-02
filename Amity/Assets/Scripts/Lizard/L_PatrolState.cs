@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolState : IEnemyState
+public class L_PatrolState : IEnemyState
 {
     private Enemy enemy;
     private float patrolTimer;
-    private float patrolDuration = 3f;
+    private float patrolDuration = 2f;
 
     public void Enter(Enemy enemy)
     {
+        Debug.Log("patrol");
         this.enemy = enemy;
     }
 
@@ -21,7 +22,7 @@ public class PatrolState : IEnemyState
 
         if (enemy.Target != null && enemy.InCastRange)
         {
-            enemy.ChangeState(new AttackState());
+            enemy.ChangeState(new L_AttackState());
         }
     }
 
@@ -32,9 +33,11 @@ public class PatrolState : IEnemyState
 
     public void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.gameObject.name);
         if (other.tag == "Edge")
         {
             enemy.ChangeDirection();
+            Debug.Log("turn");
         }
     }
 
@@ -44,7 +47,7 @@ public class PatrolState : IEnemyState
 
         if (patrolTimer >= patrolDuration)
         {
-            enemy.ChangeState(new IdleState());
+            enemy.ChangeState(new L_IdleState());
         }
     }
 }

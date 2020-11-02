@@ -2,30 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lizard : Character
-{
-    private bool attacking = false;
-
-    public GameObject Target { get; set; }
-
-    [SerializeField]
-    private float tongueRange;
-
-    private float attackCd = 1f;
-    private float attackTimer = 0;
-
-    public bool InCastRange
-    {
-        get
-        {
-            if (Target != null)
-            {
-                return Vector2.Distance(transform.position, Target.transform.position) <= tongueRange;
-            }
-
-            return false;
-        }
-    }
+public class Lizard : Enemy
+{ 
     public override bool IsDead
     {
         get
@@ -37,8 +15,11 @@ public class Lizard : Character
     // Start is called before the first frame update
     public override void Start()
     {
-        
+        base.Start();
+        ChangeState(new L_IdleState());
+        damage = 8;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -47,39 +28,10 @@ public class Lizard : Character
         {
             if (!TakingDamage)
             {
-                Move();
+                currentState.Execute();
             }
             LookAtTarget();
         }
-    }
-
-    public void Move()
-    {
-        if (!attacking)
-        {
-            if (Target != null)
-            {
-                if (InCastRange == false)
-                {
-                    animator.SetFloat("speed", 1);
-
-                    transform.Translate(GetDirection() * (speed * Time.deltaTime));
-                }
-                else
-                {
-                    animator.SetTrigger("attack");
-                    MeleeAttack();
-                    Tounge_Attack();
-                }
-            }
-            else
-            {
-                animator.SetFloat("speed", 1);
-
-                transform.Translate(GetDirection() * (speed * Time.deltaTime));
-            }
-        }
-
     }
 
     private void LookAtTarget()
@@ -95,12 +47,6 @@ public class Lizard : Character
         }
     }
 
-
-    public Vector2 GetDirection()
-    {
-        return facingRight ? Vector2.right : Vector2.left;
-    }
-
     public override void TakeDamage(int damage)
     {
         health -= damage;
@@ -108,25 +54,18 @@ public class Lizard : Character
         if (!IsDead)
         {
             animator.SetTrigger("damaged");
+            CloseAttackCollider();
+            StartCoroutine(ReturnToIdle());
         }
         else
         {
-            animator.SetTrigger("death");
-            StartCoroutine(Lizard_death(0.3f));
+            animator.SetTrigger("die");
         }
     }
 
-    IEnumerator Lizard_death(float sec)
+    IEnumerator ReturnToIdle()
     {
-        yield return new WaitForSeconds(sec);
-        Destroy(this.gameObject);
+        yield return new WaitForSeconds(3.0f);
+        ChangeState(new IdleState());
     }
-
-    private void Tounge_Attack()
-    {
-        attacking = true;
-        attackTimer = attackCd;
-        CloseAttackCollider();
-    }
-
 }

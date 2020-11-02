@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    private IEnemyState currentState;
+    protected IEnemyState currentState;
     public GameObject Target { get; set; }
 
     [SerializeField]
