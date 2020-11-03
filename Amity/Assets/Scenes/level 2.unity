@@ -1012,6 +1012,7 @@ GameObject:
   - component: {fileID: 536958169}
   - component: {fileID: 536958168}
   - component: {fileID: 536958167}
+  - component: {fileID: 536958166}
   m_Layer: 8
   m_Name: Collider 2
   m_TagString: Untagged
@@ -1019,6 +1020,41 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!60 &536958166
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536958165}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.52, y: -6.13}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.5407751, y: 0.09041977}
+      - {x: 1.5849092, y: 0.11334276}
+      - {x: 1.2623653, y: 0.20361042}
+      - {x: 0.97193336, y: 0.36377144}
+      - {x: 0.31012678, y: 0.7014084}
+      - {x: -0.91809416, y: 1.4799137}
+      - {x: -0.9062977, y: 0.30901718}
+      - {x: -0.7964673, y: 0.2691579}
+      - {x: 1.5353963, y: -0.9048004}
+      - {x: 0.14574003, y: -0.21080446}
 --- !u!61 &536958167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3279,7 +3315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1855253969
 MonoBehaviour:
   m_ObjectHideFlags: 0
