@@ -7134,7 +7134,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750134123}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -7411,7 +7411,7 @@ Transform:
   m_GameObject: {fileID: 791417378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 393.6, y: 71.69, z: 0}
-  m_LocalScale: {x: 18.570011, y: 18.570011, z: 18.570011}
+  m_LocalScale: {x: -18.57001, y: 18.570011, z: 18.570011}
   m_Children:
   - {fileID: 750134124}
   - {fileID: 149007989}
@@ -7510,7 +7510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  facingRight: 1
+  facingRight: 0
   health: 20
   MeleeCollider: {fileID: 750134125}
   castRange: 3
@@ -16404,12 +16404,12 @@ PrefabInstance:
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 381.7
+      value: 367
       objectReference: {fileID: 0}
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 72.7
+      value: 72.8
       objectReference: {fileID: 0}
     - target: {fileID: 5546353380297504415, guid: 1b8d2a4553ba9b046883a494f9530823,
         type: 3}
