@@ -103,7 +103,6 @@ public class GhoulWalker : MonoBehaviour
             if (InChargeRange == true)
             {
                 transform.Translate(GetDirection() * (speed * Time.deltaTime));
-                animator.SetFloat("speed", 8f);
             }
         }
     }

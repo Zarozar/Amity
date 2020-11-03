@@ -31,14 +31,17 @@ public class L_PatrolState : IEnemyState
         
     }
 
+      
     public void OnTriggerEnter2D(Collider2D other)
     {
+        
         Debug.Log(other.gameObject.name);
         if (other.tag == "Edge")
         {
             enemy.ChangeDirection();
             Debug.Log("turn");
         }
+        
     }
 
     private void Patrol()

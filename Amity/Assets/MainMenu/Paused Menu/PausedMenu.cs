@@ -42,7 +42,9 @@ public class PausedMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        isGamePaused = false;
         Time.timeScale = 1f;
+        HealthTracker.PlayerHealth = 100;
         SceneManager.LoadScene("Mainmenu");
     }
 

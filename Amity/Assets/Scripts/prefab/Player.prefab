@@ -287,6 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  facingRight: 1
   health: 100
   MeleeCollider: {fileID: 5546353379662555197}
   groundPoints:

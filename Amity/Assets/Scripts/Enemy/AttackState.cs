@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackState : IEnemyState
 {
-    private Enemy enemy;
+    protected Enemy enemy;
 
     private float castTimer;
     private float castCoolDown = 4;

@@ -8,10 +8,11 @@ public abstract class Character : MonoBehaviour
     [SerializeField]
     protected float speed;
 
-    protected bool facingRight;
+    [SerializeField]
+    public bool facingRight = true;
 
     [SerializeField]
-    protected int health;
+    public int health;
 
     [SerializeField]
     public int damage { get; set; }
@@ -30,7 +31,6 @@ public abstract class Character : MonoBehaviour
     // Start is called before the first frame update
     public virtual void Start()
     {
-        facingRight = true;
         animator = GetComponent<Animator>();
     }
 

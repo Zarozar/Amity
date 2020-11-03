@@ -60,12 +60,13 @@ public class Lizard : Enemy
         else
         {
             animator.SetTrigger("die");
+            Destroy(this.gameObject, 0.5f);
         }
     }
 
     IEnumerator ReturnToIdle()
     {
         yield return new WaitForSeconds(3.0f);
-        ChangeState(new IdleState());
+        ChangeState(new L_IdleState());
     }
 }

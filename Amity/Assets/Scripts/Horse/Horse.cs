@@ -65,6 +65,7 @@ public class Horse : MonoBehaviour
 
     public void HorseDeath(float sec)
     {
+        animator.SetTrigger("death");
         StartCoroutine(SecondDeath(sec));
         speed = 0;
     }

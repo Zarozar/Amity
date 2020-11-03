@@ -26,6 +26,7 @@ public class LevelLoader : MonoBehaviour
 
         if(collisionGameObject.name == "Player")
         {
+            HealthTracker.PlayerHealth = collision.gameObject.GetComponent<Player>().health;
             LoadScene();
         }
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : Character
 {
@@ -58,9 +59,10 @@ public class Player : Character
     public override void Start()
     {
         base.Start();
+        health = HealthTracker.PlayerHealth;
         Rb = GetComponent<Rigidbody2D>();
         damage = 20;
-        sliderHp.maxValue = health;
+        sliderHp.maxValue = 100;
         sliderHp.value = health;
     }
 
@@ -176,9 +178,9 @@ public class Player : Character
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "healthpot" && health <= 75)
+        if (other.gameObject.tag == "healthpot")
         {
-            health += 25;
+            health = 100;
             Destroy(other.gameObject);
         }
     }
@@ -195,6 +197,14 @@ public class Player : Character
         else
         {
             animator.SetTrigger("die");
+            StartCoroutine(RestartScene());
         }
+    }
+
+    IEnumerator RestartScene()
+    {
+        yield return new WaitForSeconds(2f);
+        HealthTracker.PlayerHealth = 100;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
