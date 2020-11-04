@@ -16,6 +16,11 @@ public class AttackState : IEnemyState
     public void Enter(Enemy enemy)
     {
         this.enemy = enemy;
+        canCast = true;
+        castCoolDown = 4;
+        attackTimer = 0;
+        attackDuration = 2;
+        isAttacking = false;
     }
 
     public void Execute()
@@ -66,7 +71,7 @@ public class AttackState : IEnemyState
         {
             canCast = false;
             enemy.animator.SetTrigger("attack");
-
+            Debug.Log("start attack");
             isAttacking = true;
         }
     }
@@ -79,6 +84,7 @@ public class AttackState : IEnemyState
         {
             isAttacking = false;
             enemy.animator.SetTrigger("finish_attack");
+            Debug.Log("finish attack");
             enemy.animator.SetTrigger("attack");
             attackTimer = 0;
         }
