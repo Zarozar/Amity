@@ -10,7 +10,7 @@ public class AttackState : IEnemyState
     private float castCoolDown = 4;
     private bool canCast = true;
     private float attackTimer = 0;
-    private float attackDuration = 2;
+    private float attackDuration = 4;
     public bool isAttacking = false;
 
     public void Enter(Enemy enemy)
