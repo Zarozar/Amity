@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class S_IdleState : IEnemyState
+public class Skeleton_IdleState : IEnemyState
 {
     private Enemy enemy;
 
@@ -21,7 +21,7 @@ public class S_IdleState : IEnemyState
 
         if (enemy.Target != null)
         {
-            enemy.ChangeState(new S_PatrolState());
+            enemy.ChangeState(new Skeleton_PatrolState());
         }
     }
 
@@ -43,7 +43,7 @@ public class S_IdleState : IEnemyState
 
         if (idleTimer >= idleDuration)
         {
-            enemy.ChangeState(new S_PatrolState());
+            enemy.ChangeState(new Skeleton_PatrolState());
         }
     }
 }

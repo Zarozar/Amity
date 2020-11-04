@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class S_PatrolState : IEnemyState
+public class Skeleton_PatrolState : IEnemyState
 {
     private Enemy enemy;
     private float patrolTimer;
@@ -22,7 +22,7 @@ public class S_PatrolState : IEnemyState
 
         if (enemy.Target != null && enemy.InCastRange)
         {
-            enemy.ChangeState(new S_AttackState());
+            enemy.ChangeState(new Skeleton_AttackState());
         }
     }
 
@@ -50,7 +50,7 @@ public class S_PatrolState : IEnemyState
 
         if (patrolTimer >= patrolDuration)
         {
-            enemy.ChangeState(new S_IdleState());
+            enemy.ChangeState(new Skeleton_IdleState());
         }
     }
 }

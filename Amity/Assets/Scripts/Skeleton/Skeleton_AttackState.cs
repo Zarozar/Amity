@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class S_AttackState : IEnemyState
+public class Skeleton_AttackState : IEnemyState
 {
     protected Enemy enemy;
 
@@ -29,7 +29,7 @@ public class S_AttackState : IEnemyState
         else
         {
             enemy.animator.SetTrigger("finish_attack");
-            enemy.ChangeState(new S_IdleState());
+            enemy.ChangeState(new Skeleton_IdleState());
         }
     }
 

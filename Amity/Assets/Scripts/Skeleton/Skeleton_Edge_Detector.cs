@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class S_Enemy_attacks : MonoBehaviour
+public class Skeleton_Edge_Detector : MonoBehaviour
 {
     public GameObject Enemy;
 
@@ -22,10 +22,10 @@ public class S_Enemy_attacks : MonoBehaviour
 
     public virtual void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
+        if (other.gameObject.tag == "Edge")
         {
-            other.GetComponent<Character>().TakeDamage(SkeletonScript.damage);
+            Debug.Log("turn");
+            SkeletonScript.ChangeDirection();
         }
     }
-
 }

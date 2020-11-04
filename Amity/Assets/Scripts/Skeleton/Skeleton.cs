@@ -16,7 +16,7 @@ public class Skeleton : Enemy
     public override void Start()
     {
         base.Start();
-        ChangeState(new S_IdleState());
+        ChangeState(new Skeleton_IdleState());
         damage = 8;
     }
 
@@ -67,6 +67,6 @@ public class Skeleton : Enemy
     IEnumerator ReturnToIdle()
     {
         yield return new WaitForSeconds(3.0f);
-        ChangeState(new S_IdleState());
+        ChangeState(new Skeleton_IdleState());
     }
 }
