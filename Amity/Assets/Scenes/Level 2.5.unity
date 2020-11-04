@@ -1770,7 +1770,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866841339}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -2339,7 +2339,7 @@ MonoBehaviour:
   facingRight: 0
   health: 60
   MeleeCollider: {fileID: 645393668}
-  castRange: 4
+  castRange: 2
 --- !u!50 &1099560505
 Rigidbody2D:
   serializedVersion: 4

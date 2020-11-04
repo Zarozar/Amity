@@ -19,7 +19,6 @@ public class Skeleton_AttackState : IEnemyState
 
     public void Execute()
     {
-        Debug.Log("attacking");
         Attacking();
 
         if (enemy.Target != null)
@@ -66,7 +65,6 @@ public class Skeleton_AttackState : IEnemyState
     private void Attacking()
     {
         castTimer += Time.deltaTime;
-        Debug.Log("attacking");
         if (castTimer >= castCoolDown)
         {
             isAttacking = true;
