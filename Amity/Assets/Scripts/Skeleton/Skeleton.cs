@@ -17,7 +17,7 @@ public class Skeleton : Enemy
     {
         base.Start();
         ChangeState(new Skeleton_IdleState());
-        damage = 8;
+        damage = 10;
     }
 
 
@@ -60,7 +60,6 @@ public class Skeleton : Enemy
         else
         {
             animator.SetTrigger("die");
-            Destroy(this.gameObject, 0.5f);
         }
     }
 

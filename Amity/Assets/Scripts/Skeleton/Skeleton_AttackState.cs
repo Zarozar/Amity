@@ -19,7 +19,6 @@ public class Skeleton_AttackState : IEnemyState
 
     public void Execute()
     {
-
         Attacking();
 
         if (enemy.Target != null)
@@ -66,7 +65,6 @@ public class Skeleton_AttackState : IEnemyState
     private void Attacking()
     {
         castTimer += Time.deltaTime;
-        Debug.Log("attacking");
         if (castTimer >= castCoolDown)
         {
             isAttacking = true;
@@ -78,7 +76,7 @@ public class Skeleton_AttackState : IEnemyState
         if (isAttacking == true)
         {
             attackTimer += Time.deltaTime;
-            if (attackTimer >= 0.3f)
+            if (attackTimer >= 1f)
             {
                 enemy.animator.SetTrigger("finish_attack");
                 enemy.CloseAttackCollider();

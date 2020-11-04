@@ -10,7 +10,6 @@ public class Skeleton_PatrolState : IEnemyState
 
     public void Enter(Enemy enemy)
     {
-        Debug.Log("patrol");
         this.enemy = enemy;
     }
 
