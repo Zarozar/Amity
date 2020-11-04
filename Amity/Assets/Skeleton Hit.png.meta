@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: e89c77c78f72ea942af2d157bc88fd47
+guid: 23ed519a99785a84aaca1921b165c29d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1515603127067585740
-    second: Skeleton React_0
+      213: -273567318796562241
+    second: Skeleton Hit_0
   - first:
-      213: -974260186754260340
-    second: Skeleton React_1
+      213: 4277271011309529139
+    second: Skeleton Hit_1
   - first:
-      213: 6619721271862762800
-    second: Skeleton React_2
+      213: -1537884627087384292
+    second: Skeleton Hit_2
   - first:
-      213: 436870274612170266
-    second: Skeleton React_3
+      213: 8452754394787171160
+    second: Skeleton Hit_3
+  - first:
+      213: 6079654374805429708
+    second: Skeleton Hit_4
+  - first:
+      213: 3860408454011024614
+    second: Skeleton Hit_5
+  - first:
+      213: -8501204524192146682
+    second: Skeleton Hit_6
+  - first:
+      213: -8738580348800268814
+    second: Skeleton Hit_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -43,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -99,85 +111,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skeleton React_0
+      name: Skeleton Hit_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
         width: 22
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4335aa66cfe77fae0800000000000000
-      internalID: -1515603127067585740
+      spriteID: fb099f419f7143cf0800000000000000
+      internalID: -273567318796562241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton React_1
+      name: Skeleton Hit_1
       rect:
         serializedVersion: 2
-        x: 22
+        x: 36
         y: 0
         width: 22
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c82e4b1a58bba72f0800000000000000
-      internalID: -974260186754260340
+      spriteID: 3382e25a25beb5b30800000000000000
+      internalID: 4277271011309529139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton React_2
+      name: Skeleton Hit_2
       rect:
         serializedVersion: 2
-        x: 44
+        x: 62
         y: 0
-        width: 22
+        width: 23
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d1a798c69fddb50800000000000000
-      internalID: 6619721271862762800
+      spriteID: c112ce8641658aae0800000000000000
+      internalID: -1537884627087384292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton React_3
+      name: Skeleton Hit_3
       rect:
         serializedVersion: 2
-        x: 66
+        x: 90
         y: 0
-        width: 22
+        width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1e8f2b3333101600800000000000000
-      internalID: 436870274612170266
+      spriteID: 85b49e266573e4570800000000000000
+      internalID: 8452754394787171160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton Hit_4
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd5d6741754f5450800000000000000
+      internalID: 6079654374805429708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton Hit_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4fd3d190de29530800000000000000
+      internalID: 3860408454011024614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton Hit_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 23
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b559cc687a50a80800000000000000
+      internalID: -8501204524192146682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton Hit_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f50d84c8735ab680800000000000000
+      internalID: -8738580348800268814
       vertices: []
       indices: 
       edges: []
