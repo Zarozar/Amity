@@ -178,7 +178,7 @@ public class Player : Character
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "healthpot" && health < 100)
+        if (other.gameObject.tag == "healthpot")
         {
             health = 100;
             Destroy(other.gameObject);

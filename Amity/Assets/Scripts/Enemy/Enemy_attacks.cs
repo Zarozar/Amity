@@ -25,7 +25,6 @@ public class Enemy_attacks : MonoBehaviour
     {
         if (other.GetComponent<Player>() != null && other.GetComponent<Player>().IsDead == false)
         {
-            FindObjectOfType<AudioManager>().Play("boss_attack");
             other.GetComponent<Character>().TakeDamage(EnemyScript.damage);
         }
     }
