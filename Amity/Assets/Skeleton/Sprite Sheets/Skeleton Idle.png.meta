@@ -35,6 +35,11 @@ TextureImporter:
   - first:
       213: -5784503621931760760
     second: Skeleton Idle_10
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   - first:
       213: 2959656733854825345
     second: Skeleton Idle_0
@@ -71,6 +76,10 @@ TextureImporter:
   - first:
       213: -7669199974717478801
     second: Skeleton Idle_11
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -147,6 +156,21 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
+<<<<<<< Updated upstream
+=======
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+>>>>>>> Stashed changes
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -161,17 +185,40 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 18b72865e10d21920800000000000000
       internalID: 2959656733854825345
+=======
+<<<<<<< HEAD
+      spriteID: bfcc8961837f80e60800000000000000
+      internalID: 7928858964255100155
+=======
+      spriteID: 18b72865e10d21920800000000000000
+      internalID: 2959656733854825345
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -182,17 +229,40 @@ TextureImporter:
         serializedVersion: 2
         x: 24
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: b2ad4202437d61110800000000000000
       internalID: 1231408167009966635
+=======
+<<<<<<< HEAD
+      spriteID: 4e16dc3a13bebfbf0800000000000000
+      internalID: -289379152601194012
+=======
+      spriteID: b2ad4202437d61110800000000000000
+      internalID: 1231408167009966635
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -203,17 +273,40 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: ea3c457916b6d1270800000000000000
       internalID: 8222846561543308206
+=======
+<<<<<<< HEAD
+      spriteID: 95865fbeb8d916c80800000000000000
+      internalID: -8331204611373963175
+=======
+      spriteID: ea3c457916b6d1270800000000000000
+      internalID: 8222846561543308206
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -224,17 +317,40 @@ TextureImporter:
         serializedVersion: 2
         x: 72
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 9967c0453db070680800000000000000
       internalID: -8789043145514125671
+=======
+<<<<<<< HEAD
+      spriteID: 28f643d3f1dc9e250800000000000000
+      internalID: 5974531914738200450
+=======
+      spriteID: 9967c0453db070680800000000000000
+      internalID: -8789043145514125671
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -243,19 +359,44 @@ TextureImporter:
       name: Skeleton Idle_4
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 97
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 96
         y: 0
         width: 24
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: f51fbe5fd2c8b2280800000000000000
       internalID: -9066999295753064097
+=======
+<<<<<<< HEAD
+      spriteID: 17269a4efca9e5a10800000000000000
+      internalID: 1900126310482141809
+=======
+      spriteID: f51fbe5fd2c8b2280800000000000000
+      internalID: -9066999295753064097
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -264,19 +405,44 @@ TextureImporter:
       name: Skeleton Idle_5
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 122
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 120
         y: 0
         width: 24
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 85d65ad3527cc1fc0800000000000000
       internalID: -3522721845748601512
+=======
+<<<<<<< HEAD
+      spriteID: a9139dd81dbeff280800000000000000
+      internalID: -9007221444457188966
+=======
+      spriteID: 85d65ad3527cc1fc0800000000000000
+      internalID: -3522721845748601512
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -285,19 +451,44 @@ TextureImporter:
       name: Skeleton Idle_6
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 146
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 144
         y: 0
         width: 24
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: e55bf89b72896d1e0800000000000000
       internalID: -2173382473775336098
+=======
+<<<<<<< HEAD
+      spriteID: 9e54ceeb019584850800000000000000
+      internalID: 6361432402118329833
+=======
+      spriteID: e55bf89b72896d1e0800000000000000
+      internalID: -2173382473775336098
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -306,19 +497,44 @@ TextureImporter:
       name: Skeleton Idle_7
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 169
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 168
         y: 0
         width: 24
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: e62c533636116c960800000000000000
       internalID: 7621798537935045230
+=======
+<<<<<<< HEAD
+      spriteID: bf7bd05497d6dc510800000000000000
+      internalID: 1571032212639168507
+=======
+      spriteID: e62c533636116c960800000000000000
+      internalID: 7621798537935045230
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -329,17 +545,40 @@ TextureImporter:
         serializedVersion: 2
         x: 192
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: fa0dbf13f5319e870800000000000000
       internalID: 8712516253706342575
+=======
+<<<<<<< HEAD
+      spriteID: 5071d9afec320a960800000000000000
+      internalID: 7611122742130972421
+=======
+      spriteID: fa0dbf13f5319e870800000000000000
+      internalID: 8712516253706342575
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -350,17 +589,40 @@ TextureImporter:
         serializedVersion: 2
         x: 216
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: eb7deb9fb57b93f60800000000000000
       internalID: 8014638617542449086
+=======
+<<<<<<< HEAD
+      spriteID: abf99f10e2b23e740800000000000000
+      internalID: 5180031473007828922
+=======
+      spriteID: eb7deb9fb57b93f60800000000000000
+      internalID: 8014638617542449086
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -371,17 +633,40 @@ TextureImporter:
         serializedVersion: 2
         x: 240
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 24
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 26fb1e7a49fd27e30800000000000000
       internalID: 4499904807261290338
+=======
+<<<<<<< HEAD
+      spriteID: 8830ccc7a9059bfa0800000000000000
+      internalID: -5784503621931760760
+=======
+      spriteID: 26fb1e7a49fd27e30800000000000000
+      internalID: 4499904807261290338
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []

@@ -144,12 +144,27 @@ TextureImporter:
       name: Skeleton Attack_0
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 3
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 0
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,12 +180,27 @@ TextureImporter:
       name: Skeleton Attack_1
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 46
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 43
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,12 +216,27 @@ TextureImporter:
       name: Skeleton Attack_2
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 89
+        y: 0
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 86
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,12 +252,27 @@ TextureImporter:
       name: Skeleton Attack_3
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 134
+        y: 0
+        width: 19
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 129
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,12 +288,27 @@ TextureImporter:
       name: Skeleton Attack_4
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 176
+        y: 0
+        width: 18
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 172
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,12 +324,27 @@ TextureImporter:
       name: Skeleton Attack_5
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 216
+        y: 0
+        width: 21
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 215
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,10 +362,23 @@ TextureImporter:
         serializedVersion: 2
         x: 258
         y: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,12 +394,27 @@ TextureImporter:
       name: Skeleton Attack_7
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 304
+        y: 0
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 301
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,12 +430,27 @@ TextureImporter:
       name: Skeleton Attack_8
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 354
+        y: 0
+        width: 31
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 344
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,12 +466,27 @@ TextureImporter:
       name: Skeleton Attack_9
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 395
+        y: 0
+        width: 32
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 387
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,12 +502,27 @@ TextureImporter:
       name: Skeleton Attack_10
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 438
+        y: 0
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 430
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,12 +538,27 @@ TextureImporter:
       name: Skeleton Attack_11
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 482
+        y: 0
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 473
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,12 +574,27 @@ TextureImporter:
       name: Skeleton Attack_12
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 525
+        y: 0
+        width: 33
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 516
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -417,12 +610,27 @@ TextureImporter:
       name: Skeleton Attack_13
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 566
+        y: 0
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 559
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,12 +646,27 @@ TextureImporter:
       name: Skeleton Attack_14
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 608
+        y: 0
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 602
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,12 +682,27 @@ TextureImporter:
       name: Skeleton Attack_15
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 647
+        y: 0
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 645
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,12 +718,27 @@ TextureImporter:
       name: Skeleton Attack_16
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 691
+        y: 0
+        width: 21
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 688
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,12 +754,27 @@ TextureImporter:
       name: Skeleton Attack_17
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 734
+        y: 0
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 731
         y: 0
         width: 43
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9754a7983cf0305af070188f0fc29f1b42e00de0
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
