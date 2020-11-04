@@ -19,7 +19,7 @@ public class AttackState : IEnemyState
         canCast = true;
         castCoolDown = 4;
         attackTimer = 0;
-        attackDuration = 2;
+        attackDuration = 4;
         isAttacking = false;
     }
 
