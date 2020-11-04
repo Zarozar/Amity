@@ -60,6 +60,8 @@ public class Skeleton : Enemy
         else
         {
             animator.SetTrigger("die");
+            this.gameObject.GetComponent<PolygonCollider2D>().enabled = false;
+            this.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
         }
     }
 
